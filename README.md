@@ -14,7 +14,7 @@ The things that will be implemented are:
 - An example of a tourist route
 - Info about the city (Population, weather…)
 
-  Beneficts once all that is implemented:
+Beneficts once all that is implemented:
   
 - Will attract the attention of tourists
 - So the population could grow
