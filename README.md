@@ -8,5 +8,6 @@ The things that will be implemented are:
 - Public Institutions (Hospitals, Police Station)
 - A easy way to check the different types of transport to reach the city
 - The public transport with schedules the people use there
+- A brief history of the village (& local traditions)
 - An example of a tourist route
 - Info about the city (Population, weather…)
