@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administration Buildings</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        .building-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            padding: 10px;
+        }
+        .building-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .building-box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .building-description {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="media.html">Media</a>
+        <a href="map.html">Map</a>
+        <a href="public_transport.html">Public Transport</a>
+        <a href="tourist_info.html">Tourist Info</a>
+        <a href="things_to_do.html">Things to do</a>
+        <a href="notice_boards.html">Notice Boards</a>
+        <a href="admin_buildings.html">Admin. Buildings</a>
+        <a href="history_traditions.html">History & Traditions</a>
+    </div>
+    <h1 class="title">Administrative Buildings</h1>
+</header>
+
+<main id="content">
+    <div class="building-box">
+        <img src="../pics/fire_station.png" alt="Fire Station">
+        <strong>Fire Station</strong>
+        <div class="building-description">
+            Location: Tvaika iela 7, Ziemeļu rajons, Rīga, LV-1005<br>
+            Phone: 67075097<br>
+            Hours: 24/7
+        </div>
+    </div>
+    <div class="building-box">
+        <img src="../pics/police_station.png" alt="Police Station">
+        <strong>Police Station</strong>
+        <div class="building-description">
+            Location: Acones iela 4, Ulbroka, Stopiņu pagasts, Ropažu novads, LV-2130<br>
+            Phone: 27883333<br>
+            Hours: 24/7
+        </div>
+    </div>
+    <div class="building-box">
+        <img src="../pics/hospital.png" alt="Stopinu ambulance">
+        <strong>Stopinu ambulance</strong>
+        <div class="building-description">
+            Location: Institūta iela 20, Institūta 20, Stopiņu pagasts, Ropažu novads, LV-2130<br>
+            Phone: +371 12345678<br>
+            Hours: Mon-Fri: 8:00 - 19:00
+        </div>
+    </div>
+    <div class="building-box">
+        <img src="../pics/town_hall.png" alt="Town Hall">
+        <strong>Administration of Ropaži Municipality</strong>
+        <div class="building-description">
+            Location: Sporta iela 1, Ropaži, Ropažu pagasts, Ropažu novads, LV-2135<br>
+            Phone: 67918666<br>
+            Hours: Mon-Fri: 9:30 – 19:00
+        </div>
+    </div>
+</main>
+
+<footer>
+    <address>
+        Written by Jesús J. Cantero.<br>
+        Duck Republik Student Hotel Riga, Lauvas iela 1, Latgales priekšpilsēta, Rīga, LV-1003<br>
+        Riga, Latvia
+    </address>
+    <div class="donate">
+        <a href="https://paypal.me/srcantero" target="_blank">Donate</a>
+    </div>
+</footer>
+</body>
+</html>
