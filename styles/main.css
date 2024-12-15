@@ -4,7 +4,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
-    max-width: 1200px;
+    max-width: 70%;
     background-color: #333;
     overflow: hidden;
     display: flex;
