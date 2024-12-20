@@ -25,7 +25,7 @@
 }
 
 .navbar a:hover {
-    background-color: #4CAF50;
+    background-color: #9D2235;
     color: black;
 }
 
@@ -46,7 +46,7 @@ body {
 
 header {
     text-align: center;
-    background-color: #4CAF50;
+    background-color: #9D2235;
     color: white;
     padding: 1rem;
 }
@@ -78,13 +78,46 @@ header {
 
 main {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     padding: 20px;
     justify-content: center;
     margin: 0 auto;
     max-width: 90%;
     box-sizing: border-box;
+}
+
+#sidebar {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+#clock-container {
+    width: 100%;
+}
+
+#digital-clock {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #9D2235;
+}
+
+#photo-container {
+    width: 100%;
+}
+
+#photo-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
 }
 
 .transport-info {
@@ -124,7 +157,7 @@ main {
 
 .link-box a {
     text-decoration: none;
-    color: #4CAF50;
+    color: #9D2235;
     font-weight: bold;
 }
 
@@ -136,7 +169,7 @@ footer {
     margin-top: auto;
 }
 
-footer .donate a {
+footer .donate a, footer .social-media a {
     color: #4CAF50;
     text-decoration: none;
     font-weight: bold;
