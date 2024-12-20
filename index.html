@@ -3,13 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="mondongo,mondongo1,mondongo2">
     <title>Lici Mainpage</title>
     <link rel="stylesheet" href="styles/main.css">
     <script src="js/main.js" defer></script>
 </head>
 <body>
 <header>
-    <h1>Welcome to the mainpage of Līči</h1>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="pages/media.html">Media</a>
+        <a href="pages/map.html">Map</a>
+        <a href="pages/public_transport.html">Public Transport</a>
+        <a href="pages/tourist_info.html">Tourist Info</a>
+        <a href="pages/things_to_do.html">Things to do</a>
+        <a href="pages/notice_boards.html">Notice Boards</a>
+        <a href="pages/admin_buildings.html">Admin. Buildings</a>
+        <a href="pages/history_traditions.html">History & Traditions</a>
+    </div>
+    <h1 class="title">Welcome to the mainpage of Līči</h1>
 </header>
 
 <section class="carousel">
@@ -29,6 +41,14 @@
     <div class="link-box"><a href="pages/notice_boards.html">Notice Boards for residents</a></div>
     <div class="link-box"><a href="pages/admin_buildings.html">Admin. Buildings</a></div>
     <div class="link-box"><a href="pages/history_traditions.html">History & Traditions</a></div>
+    <div class="link-box" id="clock-container">
+        <h3>Current Time</h3>
+        <div id="digital-clock">Loading...</div>
+    </div>
+    <div class="link-box" id="photo-container">
+        <img src="pics/Ropažu_novada_ģerbonis.svg.png" id="district-photo1" style="width: 40%; height: 50%">
+        <img src="pics/Stopiņu_pagasta_ģerbonis.svg.png" id="district-photo2" style="width: 40%; height: 50%">
+    </div>
 </main>
 
 <footer>
@@ -39,6 +59,11 @@
     </address>
     <div class="donate">
         <a href="#" onclick="openPopup('https://paypal.me/srcantero', 'Donate', 400, 500)">Donate</a>
+    </div>
+    <div class="social-media">
+        <a href="https://www.facebook.com/riga.in/" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/riga.lv/" target="_blank">Instagram</a>
+        <a href="https://x.com/rigasdome" target="_blank">Twitter/X</a>
     </div>
 </footer>
 </body>
